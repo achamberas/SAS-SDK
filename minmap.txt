@@ -1,0 +1,255 @@
+{                                                                               
+  "DATASETS": [                                                                 
+    {                                                                           
+      "DSNAME": "scores",                                                       
+      "TABLEPATH": "/root/score",                                               
+      "VARIABLES": [                                                            
+        {                                                                       
+          "NAME": "SUBJID",                                                     
+          "TYPE": "CHARACTER",                                                  
+          "PATH": "/root/score/SUBJID",                                         
+          "CURRENT_LENGTH": 136                                                 
+        },                                                                      
+        {                                                                       
+          "NAME": "visitNumber",                                                
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/visitNumber"                                     
+        },                                                                      
+        {                                                                       
+          "NAME": "visitDate",                                                  
+          "TYPE": "CHARACTER",                                                  
+          "PATH": "/root/score/visitDate",                                      
+          "CURRENT_LENGTH": 25                                                  
+        },                                                                      
+        {                                                                       
+          "NAME": "bodyMassIndex_score",                                        
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/bodyMassIndex/score"                             
+        },                                                                      
+        {                                                                       
+          "NAME": "bodyMassIndex_label",                                        
+          "TYPE": "CHARACTER",                                                  
+          "PATH": "/root/score/bodyMassIndex/label",                            
+          "CURRENT_LENGTH": 84                                                  
+     	},                                                                        
+        {                                                                       
+          "NAME": "bloodPressure_score",                                        
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/bloodPressure/score"                             
+        },                                                                      
+        {                                                                       
+          "NAME": "bloodPressure_label",                                        
+          "TYPE": "CHARACTER",                                                  
+          "PATH": "/root/score/bloodPressure/label",                            
+          "CURRENT_LENGTH": 84                                                  
+     	},                                                                        
+        {                                                                       
+          "NAME": "boneDensity_score",                                          
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/boneDensity/score"                               
+        },                                                                      
+        {                                                                       
+          "NAME": "boneDensity_label",                                          
+          "TYPE": "CHARACTER",                                                  
+          "PATH": "/root/score/boneDensity/label",                              
+          "CURRENT_LENGTH": 84                                                  
+     	},                                                                        
+        {                                                                       
+          "NAME": "steroidMyopathy_score",                                      
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/steroidMyopathy/score"                           
+        },                                                                      
+        {                                                                       
+          "NAME": "steroidMyopathy_label",                                      
+          "TYPE": "CHARACTER",                                                  
+          "PATH": "/root/score/steroidMyopathy/label",                          
+          "CURRENT_LENGTH": 84                                                  
+     	},                                                                        
+        {                                                                       
+          "NAME": "infection_score",                                            
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/infection/score"                                 
+        },                                                                      
+        {                                                                       
+          "NAME": "infection_label",                                            
+          "TYPE": "CHARACTER",                                                  
+          "PATH": "/root/score/infection/label",                                
+          "CURRENT_LENGTH": 84                                                  
+     	},                                                                        
+        {                                                                       
+          "NAME": "lipids_score",                                               
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/labs/lipids/score"                               
+        },                                                                      
+        {                                                                       
+          "NAME": "lipids_label",                                               
+          "TYPE": "CHARACTER",                                                  
+          "PATH": "/root/score/labs/lipids/label",                              
+          "CURRENT_LENGTH": 84                                                  
+     	},                                                                        
+        {                                                                       
+          "NAME": "glucoseTolerance_score",                                     
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/labs/glucoseTolerance/score"                     
+        },                                                                      
+        {                                                                       
+          "NAME": "glucoseTolerance_label",                                     
+          "TYPE": "CHARACTER",                                                  
+          "PATH": "/root/score/labs/glucoseTolerance/label",                    
+          "CURRENT_LENGTH": 84                                                  
+     	},                                                                        
+        {                                                                       
+          "NAME": "skinToxicity_hirsutism_score",                               
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/skinToxicity/hirsutism/score"                    
+        },                                                                      
+        {                                                                       
+          "NAME": "skinToxicity_hirsutism_label",                               
+          "TYPE": "CHARACTER",                                                  
+          "PATH": "/root/score/skinToxicity/hirsutism/label",                   
+          "CURRENT_LENGTH": 84                                                  
+     	},                                                                        
+        {                                                                       
+          "NAME": "skinToxicity_acneiformRash_score",                           
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/skinToxicity/acneiformRash/score"                
+        },                                                                      
+        {                                                                       
+          "NAME": "skinToxicity_acneiformRash_label",                           
+          "TYPE": "CHARACTER",                                                  
+          "PATH": "/root/score/skinToxicity/acneiformRash/label",               
+          "CURRENT_LENGTH": 84                                                  
+     	},                                                                        
+        {                                                                       
+          "NAME": "skinToxicity_easyBruising_score",                            
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/skinToxicity/easyBruising/score"                 
+        },                                                                      
+        {                                                                       
+          "NAME": "skinToxicity_easyBruising_label",                            
+          "TYPE": "CHARACTER",                                                  
+          "PATH": "/root/score/skinToxicity/easyBruising/label",                
+          "CURRENT_LENGTH": 84                                                  
+     	},                                                                        
+        {                                                                       
+          "NAME": "skinToxicity_atrophyStriae_score",                           
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/skinToxicity/atrophyStriae/score"                
+        },                                                                      
+        {                                                                       
+          "NAME": "skinToxicity_atrophyStriae_label",                           
+          "TYPE": "CHARACTER",                                                  
+          "PATH": "/root/score/skinToxicity/atrophyStriae/label",               
+          "CURRENT_LENGTH": 84                                                  
+     	},                                                                        
+        {                                                                       
+          "NAME": "skinToxicity_erosionTear_score",                             
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/skinToxicity/erosionTearUlceration/score"        
+        },                                                                      
+        {                                                                       
+          "NAME": "skinToxicity_erosionTear_label",                             
+          "TYPE": "CHARACTER",                                                  
+          "PATH": "/root/score/skinToxicity/erosionTearUlceration/label",       
+          "CURRENT_LENGTH": 84                                                  
+     	},                                                                        
+        {                                                                       
+          "NAME": "skinToxicity_min_score",                                     
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/skinToxicity/min"                                
+        },                                                                      
+        {                                                                       
+          "NAME": "skinToxicity_max_score",                                     
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/skinToxicity/max"                                
+        },                                                                      
+        {                                                                       
+          "NAME": "neuro_insomnia_score",                                       
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/neuropsychiatric/insomnia/score"                 
+        },                                                                      
+        {                                                                       
+          "NAME": "neuro_insomnia_label",                                       
+          "TYPE": "CHARACTER",                                                  
+          "PATH": "/root/score/neuropsychiatric/insomnia/label",                
+          "CURRENT_LENGTH": 84                                                  
+     	},                                                                        
+        {                                                                       
+          "NAME": "neuro_mania_score",                                          
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/neuropsychiatric/mania/score"                    
+        },                                                                      
+        {                                                                       
+          "NAME": "neuro_mania_label",                                          
+          "TYPE": "CHARACTER",                                                  
+          "PATH": "/root/score/neuropsychiatric/mania/label",                   
+          "CURRENT_LENGTH": 84                                                  
+     	},                                                                        
+        {                                                                       
+          "NAME": "neuro_cognitiveImpairment_score",                            
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/neuropsychiatric/cognitiveImpairment/score"      
+        },                                                                      
+        {                                                                       
+          "NAME": "neuro_cognitiveImpairment_label",                            
+          "TYPE": "CHARACTER",                                                  
+          "PATH": "/root/score/neuropsychiatric/cognitiveImpairment/label",     
+          "CURRENT_LENGTH": 84                                                  
+     	},                                                                        
+        {                                                                       
+          "NAME": "neuro_depression_score",                                     
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/neuropsychiatric/depression/score"               
+        },                                                                      
+        {                                                                       
+          "NAME": "neuro_depression_label",                                     
+          "TYPE": "CHARACTER",                                                  
+          "PATH": "/root/score/neuropsychiatric/depression/label",              
+          "CURRENT_LENGTH": 84                                                  
+     	},                                                                        
+        {                                                                       
+          "NAME": "neuro_psychosis_score",                                      
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/neuropsychiatric/psychosis/score"                
+        },                                                                      
+        {                                                                       
+          "NAME": "neuro_psychosis_label",                                      
+          "TYPE": "CHARACTER",                                                  
+          "PATH": "/root/score/neuropsychiatric/psychosis/label",               
+          "CURRENT_LENGTH": 84                                                  
+     	},                                                                        
+        {                                                                       
+          "NAME": "neuro_steroidViolence_score",                                
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/neuropsychiatric/steroidViolence/score"          
+        },                                                                      
+        {                                                                       
+          "NAME": "neuro_steroidViolence_label",                                
+          "TYPE": "CHARACTER",                                                  
+          "PATH": "/root/score/neuropsychiatric/steroidViolence/label",         
+          "CURRENT_LENGTH": 84                                                  
+     	},                                                                        
+        {                                                                       
+          "NAME": "neuro_min_score",                                            
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/neuropsychiatric/min"                            
+        },                                                                      
+        {                                                                       
+          "NAME": "neuro_max_score",                                            
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/neuropsychiatric/max"                            
+        },                                                                      
+        {                                                                       
+          "NAME": "cws",                                                        
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/csw"                                             
+        },                                                                      
+        {                                                                       
+          "NAME": "ais",                                                        
+          "TYPE": "NUMERIC",                                                    
+          "PATH": "/root/score/ais"                                             
+        }                                                                       
+      ]                                                                         
+    }                                                                           
+  ]                                                                             
+}                                                                               
